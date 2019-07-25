@@ -1,0 +1,106 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+}
+hr {
+  border: dotted #EAF6F6 6px;
+  border-bottom: 0;
+  margin: 100px auto;
+  width: 4%;
+}
+
+h1 {
+  font-size: 5.62rem;
+  margin: 50 auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #731e9e;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 50 auto 0 auto;
+  font-size: 2.5rem;
+  color: #731e9e;
+  font-weight: normal;
+  line-height: 2;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #a671d1;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 200px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 450px;
+  top: 100px
+}
+
+.top-container {
+  background-color: #EEEEEE;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+  background-color: #D8CBBB;
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #BB8FA9
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.radiographer {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.teaching {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+.btn {
+  background: #a671d1;
+  background-image: -webkit-linear-gradient(top, #a671d1, #731e9e);
+  background-image: -moz-linear-gradient(top, #a671d1, #731e9e);
+  background-image: -ms-linear-gradient(top, #a671d1, #731e9e);
+  background-image: -o-linear-gradient(top, #a671d1, #731e9e);
+  background-image: linear-gradient(to bottom, #a671d1, #731e9e);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #9979b3;
+  background-image: -webkit-linear-gradient(top, #9979b3, #76149c);
+  background-image: -moz-linear-gradient(top, #9979b3, #76149c);
+  background-image: -ms-linear-gradient(top, #9979b3, #76149c);
+  background-image: -o-linear-gradient(top, #9979b3, #76149c);
+  background-image: linear-gradient(to bottom, #9979b3, #76149c);
+  text-decoration: none;
+}
+.contact-message {
+  margin: 50px auto;
+}
